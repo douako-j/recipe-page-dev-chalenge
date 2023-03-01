@@ -1,0 +1,30 @@
+{
+  "name": "recipe-page-dev-chalenge",
+  "version": "1.0.0",
+  "description": "Fourth challenge of the Responsive Web developer path on devchallenges.io",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douako-j/recipe-page-dev-chalenge.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "RESPONSIVE",
+    "MOBILE-FIRST",
+    "CHALLENGE"
+  ],
+  "author": "Jordan DOUAKOUTCHE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douako-j/recipe-page-dev-chalenge/issues"
+  },
+  "homepage": "https://github.com/douako-j/recipe-page-dev-chalenge#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
