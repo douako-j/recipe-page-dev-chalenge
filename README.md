@@ -1,8 +1,4 @@
-# recipe-page-dev-chalenge
-
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Recipe page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -10,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://douako-j.github.io/recipe-page-dev-chalenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/douako-j/recipe-page-dev-chalenge">
       Solution
     </a>
     <span> | </span>
@@ -39,22 +35,20 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./screenshot.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- This project helped me work on my ability to read a Figma design file and transform it into code
+- I was able to improve my skill in css layout with flex and grid
+- I was also able to work on responsive design management with sass media mixins
+- I used the mobile first patter
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [SASS](https://sass-lang.com/)
 
 ## Features
 
@@ -62,9 +56,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
+- [x] User story: I can see a recipe with ingredients and instructions
+- [x] User story: I can select a checkbox if I have the ingredients
+- [x] User story: I can see the number of servings, baking times
 
 ## How To Use
 
@@ -72,13 +66,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/douako-j/recipe-page-dev-chalenge
 
 # Install dependencies
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run sass
 ```
 
 ## Acknowledgements

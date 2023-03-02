@@ -4,9 +4,17 @@
   align-items: center;
   gap: 0.542rem;
 
+  @include xl {
+    gap: 1.4rem;
+  }
+
   .info__icon {
     font-size: 1.417rem;
     color: var(--dark-gray-color);
+
+    @include xl {
+      font-size: 2.7rem;
+    }
   }
 
   .info__content {
@@ -18,12 +26,22 @@
       font-weight: 700;
       color: var(--light-gray-color);
       text-transform: uppercase;
+
+      @include xl {
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
     }
 
     span {
       font-size: 1rem;
       line-height: 1.2rem;
       font-weight: 500;
+
+      @include xl {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+      }
     }
   }
 }
