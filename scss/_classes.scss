@@ -1,1 +1,37 @@
+/*========= Info =========*/
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0.542rem;
 
+  .info__icon {
+    font-size: 1.417rem;
+    color: var(--dark-gray-color);
+  }
+
+  .info__content {
+    line-height: 1rem;
+
+    .info-title {
+      font-size: 0.8rem;
+      line-height: 1rem;
+      font-weight: 700;
+      color: var(--light-gray-color);
+      text-transform: uppercase;
+    }
+
+    span {
+      font-size: 1rem;
+      line-height: 1.2rem;
+      font-weight: 500;
+    }
+  }
+}
+
+/*========= Section-title =========*/
+.section__title {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+  font-family: var(--playfair-display-font);
+}

@@ -1,13 +1,16 @@
 /*=============== Google-Font ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
   // font-family
   --montserrat-font: "Montserrat", sans-serif;
-  --crimson-pro-font: "Crimson Pro", serif;
-  --lora-font: "Lora", serif;
+  --playfair-display-font: "Playfair Display", serif;
 
   // color
-  --text-color: #000;
-  --bg-color: #181719;
+  --primary-color: #f2994a;
+  --gray-color: #c4c4c4;
+  --light-gray-color: #bdbdbd;
+  --dark-gray-color: #4f4f4f;
+  --text-color: #333;
+  --dark-color: #000;
 }
